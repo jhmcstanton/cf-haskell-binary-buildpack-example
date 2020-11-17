@@ -1,0 +1,6 @@
+---
+applications:
+- name: cloud-foundry-haskell-example
+  buildpacks:
+    - binary_buildpack
+  command: ./cf_target/cloud-foundry-haskell-example
